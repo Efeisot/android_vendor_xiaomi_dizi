@@ -1,0 +1,52 @@
+{
+    "SM8650": [
+        {
+            "perfevent": "camera_app_launch_boost",
+            "config": [
+                "0x40804100, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                "0x40800100, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                "0x40804000, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                "0x40800000, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                "0x42804000, 0x0,    //GPU - min pwrlevel 0 (freq 940 Mhz)",
+                "0x43C28000, 4096,   //MPCTLV3_CPUCTL_TOPAPP_CPUSHARE,          4096"
+            ]
+        },
+        {
+            "perfevent": "display_on_resource",
+            "config": [
+                "0x40000000, 1,      //Display on resource opcode, value"
+            ]
+        },
+        {
+            "perfevent": "camera_post_process_boost",
+            "config": [
+                "0x43C24000, 4096,   //MPCTLV3_CPUCTL_CAMERA_CPUSHARE,          4096"
+            ]
+        }
+    ],
+    "SM8635": [
+        {
+            "perfevent": "camera_app_launch_boost",
+            "config": [
+                "0x40804100, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                "0x40800100, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_LITTLE_CORE_0, 0xFFF",
+                "0x40804000, 0xFFF,  //MPCTLV3_MAX_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                "0x40800000, 0xFFF,  //MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0, 0xFFF",
+                "0x42804000, 0x0,    //GPU - min pwrlevel 0 (freq 940 Mhz)",
+                "0x43C28000, 4096,   //MPCTLV3_CPUCTL_TOPAPP_CPUSHARE,          4096"
+            ]
+        },
+        {
+            "perfevent": "display_on_resource",
+            "config": [
+                "0x40000000, 1,      //Display on resource opcode, value"
+            ]
+        },
+        {
+            "perfevent": "camera_post_process_boost",
+            "config": [
+                "0x43C24000, 4096,   //MPCTLV3_CPUCTL_CAMERA_CPUSHARE,          4096"
+            ]
+        }
+    ]
+}
