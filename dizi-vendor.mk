@@ -4445,14 +4445,11 @@ PRODUCT_PACKAGES += \
     TimeService \
     TrustZoneAccessService \
     DynamicDDSService \
-    ModemTestBox \
     PowerOffAlarm \
     QCC \
     QesdkSysService \
     QtiTelephony \
     QtiTelephonyService \
-    colorservice \
-    datastatusnotification \
     uceShimService \
     QtiWifiService \
     QualcommVoiceActivation \
@@ -4488,7 +4485,6 @@ PRODUCT_PACKAGES += \
     extphonelib \
     framework-ext-res \
     global-cleaner-empty \
-    gson \
     mirilhook \
     mirilmsgtunnel \
     qcrilhook \
@@ -4566,14 +4562,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1 \
     android.hardware.sensors@2.1-multihal \
     android.hardware.thermal@2.0-service.qti \
-    android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
     android.hardware.wifi@1.0-service \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_vendor.xiaomi.hardware.cld \
     manifest_vendor.xiaomi.hardware.mfidoca \
-    manifest_vendor.xiaomi.hardware.mlipay \
     manifest_vendor.xiaomi.hardware.mtdservice \
     manifest_vendor.xiaomi.hardware.tidaservice \
     qfp-daemon \
