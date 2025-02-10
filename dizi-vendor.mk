@@ -4450,7 +4450,6 @@ PRODUCT_PACKAGES += \
     QesdkSysService \
     QtiTelephony \
     QtiTelephonyService \
-    uceShimService \
     QtiWifiService \
     QualcommVoiceActivation \
     WfdService \
