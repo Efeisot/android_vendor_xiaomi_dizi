@@ -4562,7 +4562,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1 \
     android.hardware.sensors@2.1-multihal \
     android.hardware.thermal@2.0-service.qti \
-    android.hardware.wifi.supplicant \
     android.hardware.wifi@1.0-service \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
