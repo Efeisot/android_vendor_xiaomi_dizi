@@ -329,125 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/default-permissions/com.qualcomm.qtil.btdsda.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/com.qualcomm.qtil.btdsda.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/default-permissions/default-permissions-com.quicinc.voice.activation.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-com.quicinc.voice.activation.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/ForceDarkAppConfigVersion.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/ForceDarkAppConfigVersion.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/ForceDarkAppSettings.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/ForceDarkAppSettings.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/OWNERS:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/OWNERS \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/air.tv.douyu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/air.tv.douyu.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cmb.pb.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cmb.pb.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cn.TuHu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.TuHu.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cn.etouch.ecalendar.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.etouch.ecalendar.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cn.wps.moffice_eng.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.wps.moffice_eng.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cn.xiaochuankeji.tieba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.xiaochuankeji.tieba.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/cn.xuexi.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/cn.xuexi.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.UCMobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.UCMobile.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.alibaba.android.rimet.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.alibaba.android.rimet.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.alibaba.wireless.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.alibaba.wireless.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.android.vending.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.android.vending.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.anjuke.android.app.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.anjuke.android.app.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.autonavi.minimap.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.autonavi.minimap.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.baidu.homework.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.homework.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.baidu.netdisk.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.netdisk.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.baidu.searchbox.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.searchbox.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.baidu.tieba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.baidu.tieba.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.bankcomm.Bankcomm.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.bankcomm.Bankcomm.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.bankcomm.maidanba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.bankcomm.maidanba.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.cainiao.wireless.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cainiao.wireless.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.campmobile.snowcamera.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.campmobile.snowcamera.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.chaoxing.mobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chaoxing.mobile.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.chinamworld.bocmbci.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chinamworld.bocmbci.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.chinamworld.main.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.chinamworld.main.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.citiccard.mobilebank.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.citiccard.mobilebank.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.cleanmaster.mguard_cn.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cleanmaster.mguard_cn.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.cmbchina.ccd.pluto.cmbActivity.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cmbchina.ccd.pluto.cmbActivity.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.ct.client.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ct.client.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.cubic.autohome.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.cubic.autohome.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.dianping.v1.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.dianping.v1.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.didapinche.booking.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.didapinche.booking.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.fenbi.android.solar.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.fenbi.android.solar.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.glodon.drawingexplorer.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.glodon.drawingexplorer.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.gorgeous.lite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.gorgeous.lite.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.gotokeep.keep.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.gotokeep.keep.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.handsgo.jiakao.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.handsgo.jiakao.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.homelink.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.homelink.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.hpbr.bosszhipin.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.hpbr.bosszhipin.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.hunantv.imgo.activity.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.hunantv.imgo.activity.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.immomo.momo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.immomo.momo.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jd.jdlite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jd.jdlite.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jifen.qukan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jifen.qukan.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jingdong.app.mall.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jingdong.app.mall.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jingyao.easybike.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jingyao.easybike.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jiongji.andriod.card.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jiongji.andriod.card.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.job.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.job.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jsmcc.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jsmcc.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.jzzs.ParentsHelper.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.jzzs.ParentsHelper.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.kuaiduizuoye.scan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.kuaiduizuoye.scan.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.kugou.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.kugou.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.le123.ysdq.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.le123.ysdq.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.lechuan.mdwz.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lechuan.mdwz.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.lemon.faceu.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lemon.faceu.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.lianjia.beike.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lianjia.beike.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.lingan.seeyou.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.lingan.seeyou.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.meitu.meiyancamera.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.meitu.meiyancamera.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.microsoft.office.word.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.microsoft.office.word.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.moji.mjweather.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.moji.mjweather.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.mt.mtxx.mtxx.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.mt.mtxx.mtxx.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.mxtech.videoplayer.ad.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.mxtech.videoplayer.ad.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.netease.cloudmusic.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.netease.cloudmusic.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.p1.mobile.putong.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.p1.mobile.putong.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.pingan.carowner.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.pingan.carowner.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.pingan.lifeinsurance.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.pingan.lifeinsurance.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.qiyi.video.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.qiyi.video.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.qiyi.video.lite.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.qiyi.video.lite.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.quark.browser.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.quark.browser.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.sankuai.meituan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sankuai.meituan.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.sankuai.meituan.takeoutnew.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sankuai.meituan.takeoutnew.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.sgcc.wsgw.cn.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sgcc.wsgw.cn.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.sina.weibo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sina.weibo.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.snda.wifilocating.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.snda.wifilocating.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.ss.android.article.video.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ss.android.article.video.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.ss.android.auto.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ss.android.auto.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.ss.android.ugc.live.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ss.android.ugc.live.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.suning.mobile.ebuy.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.suning.mobile.ebuy.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.sup.android.superb.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.sup.android.superb.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.taobao.etao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.etao.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.taobao.live.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.live.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.taobao.taobao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taobao.taobao.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.taou.maimai.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.taou.maimai.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.androidqqmail.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.androidqqmail.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.gamehelper.smoba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.gamehelper.smoba.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.karaoke.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.karaoke.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mm.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mm.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mobileqq.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mobileqq.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.mtt.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.mtt.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqlive.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqlive.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqmusic.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqmusic.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqpim.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqpim.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qqpimsecure.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qqpimsecure.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.qt.qtl.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.qt.qtl.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.token.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.token.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.weishi.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.weishi.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.wemeet.app.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.wemeet.app.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.wework.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.wework.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tencent.zebra.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tencent.zebra.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tianyancha.skyeye.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tianyancha.skyeye.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.tmri.app.main.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.tmri.app.main.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.unionpay.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.unionpay.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.wuba.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wuba.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.wuba.zhuanzhuan.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wuba.zhuanzhuan.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.wudaokou.hippo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.wudaokou.hippo.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xiaomi.market.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xiaomi.market.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xiaomi.vipaccount.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xiaomi.vipaccount.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xingin.xhs.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xingin.xhs.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xt.retouch.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xt.retouch.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xuexiaoyi.xxy.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xuexiaoyi.xxy.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.xunmeng.pinduoduo.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.xunmeng.pinduoduo.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.ygkj.chelaile.standard.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.ygkj.chelaile.standard.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.yipiao.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.yipiao.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.zhaopin.social.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.zhaopin.social.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/com.zhihu.android.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/com.zhihu.android.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/me.ele.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/me.ele.json \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/forcedarkconfig/tv.pps.mobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/tv.pps.mobile.json \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/framepredict_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/framepredict_config.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/fs_config_files:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_files \
@@ -595,7 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/androidx.window.sidecar.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/androidx.window.sidecar.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.provision.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.provision.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.settingslib.search.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settingslib.search.xml \
@@ -603,7 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.google.lens.feature.CAMERA_INTEGRATION.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.lens.feature.CAMERA_INTEGRATION.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.google.lens.feature.GALLERY_INTEGRATION.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.lens.feature.GALLERY_INTEGRATION.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.nxp.nfc.nq.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nxp.nfc.nq.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qti.media.secureprocessor.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.media.secureprocessor.xml \
@@ -611,12 +490,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qmapbridge.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qmapbridge.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qti.VENDORSSGTZD.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.VENDORSSGTZD.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.izattools.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.st.android.nfc_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.st.android.nfc_extensions.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/com.xiaomi.slalib.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.xiaomi.slalib.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/datachannellib.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/datachannellib.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/embms-noship_product_privapp_permissions_qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/embms-noship_product_privapp_permissions_qti.xml \
@@ -633,8 +507,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_telephony_hidl_wrapper.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/qti_telephony_utils.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_telephony_utils.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
-    vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/vendor.qti.imsdcservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdcservice.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/public.libraries-modem.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-modem.txt \
     vendor/xiaomi/dizi/proprietary/system_ext/etc/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt \
@@ -663,9 +535,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.2.so \
@@ -683,10 +552,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/extractors/libmmparserextractor.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvt.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvtutils.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libAGC_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libAGC_recpp.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libANS_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libANS_recpp.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libAdaptiveEQ_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libAdaptiveEQ_recpp.so \
@@ -752,8 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libhoaeffects.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libhoaeffects.qti.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libhoaeffects_csim.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libhoaeffects_csim.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libhwuiinsptrdl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libhwuiinsptrdl.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libimscamera_jni.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libimsmedia_jni.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libinstalldimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libinstalldimpl.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libjnihelpers.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libjnihelpers.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libknockservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libknockservice.so \
@@ -797,7 +660,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libmonitortrack.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmonitortrack.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libmpeg4pro.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmpeg4pro.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/libmwqemiptablemgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmwqemiptablemgr.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/libnetworkboostjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnetworkboostjni.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/liboctvm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liboctvm.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/liboctvm_drv.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liboctvm_drv.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/liboctvm_runtime.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liboctvm_runtime.so \
@@ -897,7 +759,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.5.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ImsRtpService-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ImsRtpService-V1-ndk.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.1.so \
@@ -981,16 +842,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.9.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.1.so \
@@ -1026,36 +877,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.configaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.configaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.connectionaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.connectionaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.datachannelservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.datachannelservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.datachannelservice-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.datachannelservice-V2-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.factoryaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factoryaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcssipaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssipaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib/vendor.qti.latency@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.2.so \
@@ -1089,9 +910,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.2.so \
@@ -1109,10 +927,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libmmparserextractor.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libAGC_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAGC_recpp.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libANS_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libANS_recpp.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libAdaptiveEQ_recpp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAdaptiveEQ_recpp.so \
@@ -1196,8 +1010,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libhoaeffects_csim.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhoaeffects_csim.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libhook.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhook.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libhwuiinsptrdl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhwuiinsptrdl.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libinstalldimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libinstalldimpl.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libjlspeex.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjlspeex.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libjnihelpers.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnihelpers.so \
@@ -1252,7 +1064,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libmsp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmsp.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libmwqemiptablemgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmwqemiptablemgr.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libnative-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnative-jni.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/libnetworkboostjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnetworkboostjni.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/libntfs-3g.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libntfs-3g.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/liboctvm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboctvm.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/liboctvm_drv.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboctvm_drv.so \
@@ -1367,7 +1178,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.5.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ImsRtpService-V1-ndk.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
@@ -1455,16 +1265,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.9.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
@@ -1500,36 +1300,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callcapabilityaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.configaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.connectionaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.connectionaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.datachannelservice-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.datachannelservice-V2-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.factoryaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factoryaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcssipaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssipaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.1.so \
     vendor/xiaomi/dizi/proprietary/system_ext/lib64/vendor.qti.latency@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.2.so \
@@ -1693,8 +1463,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/bin/lowirpcd:$(TARGET_COPY_OUT_VENDOR)/bin/lowirpcd \
     vendor/xiaomi/dizi/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/xiaomi/dizi/proprietary/vendor/bin/minidump64:$(TARGET_COPY_OUT_VENDOR)/bin/minidump64 \
-    vendor/xiaomi/dizi/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
-    vendor/xiaomi/dizi/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
     vendor/xiaomi/dizi/proprietary/vendor/bin/mmid:$(TARGET_COPY_OUT_VENDOR)/bin/mmid \
     vendor/xiaomi/dizi/proprietary/vendor/bin/modemManager:$(TARGET_COPY_OUT_VENDOR)/bin/modemManager \
     vendor/xiaomi/dizi/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
@@ -1761,7 +1529,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_cmd_tool \
     vendor/xiaomi/dizi/proprietary/vendor/bin/vendor_tcpdump:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_tcpdump \
     vendor/xiaomi/dizi/proprietary/vendor/bin/vmmgr:$(TARGET_COPY_OUT_VENDOR)/bin/vmmgr \
-    vendor/xiaomi/dizi/proprietary/vendor/bin/vsimd:$(TARGET_COPY_OUT_VENDOR)/bin/vsimd \
     vendor/xiaomi/dizi/proprietary/vendor/bin/wdsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/wdsdaemon \
     vendor/xiaomi/dizi/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/xiaomi/dizi/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
@@ -2236,10 +2003,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
-    vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
-    vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
     vendor/xiaomi/dizi/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
@@ -2795,10 +2560,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.mcx.policy.xr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.mcx.policy.xr.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.1.so \
@@ -2867,13 +2628,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscommon.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsrcsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcsservice.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsservice.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsvtcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtcore.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
@@ -3095,8 +2849,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket_vendor.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmisight.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
@@ -3173,9 +2925,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrilNrFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrFramework.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrilNrLogger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrLogger.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrilNrQtiMutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrQtiMutex.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrildataaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildataaidl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libqcrildataqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildataqos.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-algo.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-json-mode-parser.so \
@@ -3328,7 +3077,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti_vendor.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/libvsim.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvsim.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libwifi-hal-ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-ctrl.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
@@ -3508,15 +3256,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.8.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.1.so \
@@ -3553,28 +3292,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.0.so \
@@ -3591,13 +3308,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@4.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hw.touchfeature@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib/vndk/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx.so \
@@ -3885,10 +3599,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.mcx.policy.xr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.policy.xr.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
@@ -3963,13 +3673,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscommon.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsrcsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcsservice.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsservice.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsvtcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtcore.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
@@ -4248,8 +3951,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisight.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmisui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisui.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
@@ -4342,9 +4043,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrilNrFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilNrFramework.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrilNrLogger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilNrLogger.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrilNrQtiMutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilNrQtiMutex.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrildataaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildataaidl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/libqcrildataqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildataqos.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-algo.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-json-mode-parser.so \
@@ -4654,15 +4352,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.8.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
@@ -4714,28 +4403,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.0.so \
@@ -4758,8 +4425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@4.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
     vendor/xiaomi/dizi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
@@ -4779,25 +4444,16 @@ PRODUCT_PACKAGES += \
     QFingerprintService \
     TimeService \
     TrustZoneAccessService \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
-    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
-    AtFwd2 \
     DynamicDDSService \
-    ImsDataChannelService \
-    ImsRcsService \
     ModemTestBox \
     PowerOffAlarm \
     QCC \
     QesdkSysService \
     QtiTelephony \
     QtiTelephonyService \
-    SimContact \
-    WAPPushManager \
-    atfwd \
     colorservice \
     datastatusnotification \
     uceShimService \
-    CarrierConfig \
     QtiWifiService \
     QualcommVoiceActivation \
     WfdService \
@@ -4805,28 +4461,19 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.services.systemhelper \
     dcf \
     dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
     xrcbservice \
     xrvdservice \
     WfdCommon \
     tcmclient \
     vendor.qti.hardware.data.connectionaidl-V1-java \
     ActivityExt \
-    NetworkBoost \
     androidx.window.extensions \
     androidx.window.sidecar \
-    apprecovery.proinstaller \
     audiosphere \
     camerax-vendor-extensions \
-    com.android.hotwordenrollment.common.util \
-    com.nxp.nfc.nq \
     com.qti.dpmframework \
     com.qti.location.sdk \
     com.qti.media.secureprocessor \
-    com.qualcomm.qti.imscmservice-V2.0-java \
-    com.qualcomm.qti.imscmservice-V2.1-java \
-    com.qualcomm.qti.imscmservice-V2.2-java \
     com.qualcomm.qti.uceservice-V2.0-java \
     com.qualcomm.qti.uceservice-V2.1-java \
     com.qualcomm.qti.uceservice-V2.2-java \
@@ -4836,10 +4483,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V1.0-java \
     com.quicinc.cne.constants-V2.0-java \
     com.quicinc.cne.constants-V2.1-java \
-    com.st.android.nfc_extensions \
-    com.xiaomi.NetworkBoost \
-    com.xiaomi.nfc \
-    com.xiaomi.slalib \
     datachannellib \
     dpmapi \
     extphonelib \
@@ -4909,34 +4552,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.slmadapter-V1.0-java \
     vendor.qti.hardware.wigig.netperftuner-V1.0-java \
     vendor.qti.hardware.wigig.supptunnel-V1.0-java \
-    vendor.qti.ims.callcapability-V1.0-java \
-    vendor.qti.ims.callcapabilityaidlservice-V1-java \
-    vendor.qti.ims.callinfo-V1.0-java \
-    vendor.qti.ims.configaidlservice-V1-java \
-    vendor.qti.ims.configservice-V1.0-java \
-    vendor.qti.ims.configservice-V1.1-java \
-    vendor.qti.ims.connection-V1.0-java \
-    vendor.qti.ims.connectionaidlservice-V1-java \
-    vendor.qti.ims.datachannelservice-V1-java \
-    vendor.qti.ims.datachannelservice-V2-java \
-    vendor.qti.ims.factory-V1.0-java \
-    vendor.qti.ims.factory-V1.1-java \
-    vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.factory-V2.1-java \
-    vendor.qti.ims.factory-V2.2-java \
-    vendor.qti.ims.factoryaidlservice-V1-java \
-    vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.qti.ims.rcsconfig-V1.1-java \
-    vendor.qti.ims.rcsconfig-V2.0-java \
-    vendor.qti.ims.rcsconfig-V2.1-java \
-    vendor.qti.ims.rcssip-V1.0-java \
-    vendor.qti.ims.rcssip-V1.1-java \
-    vendor.qti.ims.rcssip-V1.2-java \
-    vendor.qti.ims.rcssipaidlservice-V1-java \
-    vendor.qti.ims.rcsuce-V1.0-java \
-    vendor.qti.ims.rcsuce-V1.1-java \
-    vendor.qti.ims.rcsuce-V1.2-java \
-    vendor.qti.ims.rcsuceaidlservice-V1-java \
     vendor.qti.latency-V2.0-java \
     vendor.qti.latency-V2.1-java \
     vendor.qti.latency-V2.2-java \
@@ -4945,8 +4560,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.common-V1-java \
     vendor.xiaomi.hardware.satellite-V1-java \
     version-seperation \
-    xiaomi-modem-common \
-    xiaomi-telephony-common \
     android.hardware.atrace@1.0-service \
     android.hardware.dumpstate@1.1-service.xiaomi \
     android.hardware.graphics.mapper-impl-qti-display \
@@ -4963,7 +4576,6 @@ PRODUCT_PACKAGES += \
     manifest_vendor.xiaomi.hardware.mlipay \
     manifest_vendor.xiaomi.hardware.mtdservice \
     manifest_vendor.xiaomi.hardware.tidaservice \
-    manifest_vendor.xiaomi.hardware.vsimapp \
     qfp-daemon \
     vendor.dolby.hardware.dms \
     vendor.qti.hardware.display.allocator-service \
